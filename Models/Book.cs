@@ -15,7 +15,7 @@ namespace Ghitau_Emanuela_Lab2.Models
         [DataType(DataType.Date)]
         public DateTime PublishingDate { get; set; }
         public int? PublisherID { get; set; }
-        public System.Security.Policy.Publisher? Publisher { get; set; }
+        public Publisher? Publisher { get; set; }
 
     }
 
